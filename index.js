@@ -32,7 +32,7 @@ const users = [
 
 //MongoDB
 
-const uri = "mongodb+srv://dbUserR001:scJwQiL6VcwBOZX2@cluster0.nfiuyyd.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dbUserR001:<password>@cluster0.nfiuyyd.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
